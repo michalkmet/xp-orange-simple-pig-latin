@@ -10,6 +10,6 @@
 
 Pomodoro 1:
 
-- 🚧 IN PROGRESS Initial refactor
-- ⚠ TODO Examples
+- ✅ DONE Initial refactor
+- ✅ DONE Examples
 - ⚠ TODO User stories + uats
