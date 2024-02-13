@@ -1,7 +1,7 @@
 const pigIt = require('./simple-pig-latin');
 
-describe('hello', () => {
-  it('should return hello', () => {
-    expect(pigIt()).toBe('hello');
+describe('User Story 1: Pig a one word max', () => {
+  it("UAT1.1 When I pass 'a' I should see 'aay'", () => {
+    expect(pigIt('a')).toBe('aay');
   });
 });

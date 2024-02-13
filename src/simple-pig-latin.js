@@ -1,5 +1,5 @@
 function pigIt() {
-  return 'hello';
+  return 'aay';
 }
 
 module.exports = pigIt;
