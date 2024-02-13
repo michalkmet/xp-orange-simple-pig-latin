@@ -18,7 +18,7 @@ Pomodoro 1:
 
 - ✅ DONE UAT1.1 When I pass 'a' I should see 'aay'
 - ✅ DONE UAT1.2 When I pass 'ab' I should see 'baay'
-- ⚠ TODO UAT1.3 When I pass 'Pig' I should see 'igPay'
+- ✅ DONE UAT1.3 When I pass 'Pig' I should see 'igPay'
 - ⚠ TODO UAT1.4 When I pass '!' I should see '!'
 
 User Story 2: Pig two or more words
