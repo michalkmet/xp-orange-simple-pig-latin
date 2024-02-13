@@ -9,28 +9,28 @@ pigIt('Hello world !'); // elloHay orldway !
 ## Examples
 
 Example 1:
-pigIt('a') -> aay
+pigIt('a') -> 'aay'
 
 Example 2:
-pigIt('ab') -> baay
+pigIt('ab') -> 'baay'
 
 Example 3:
-pigIt('Pig') -> igPay
+pigIt('Pig') -> 'igPay'
 
 Example 4:
-pigIt('!') -> !
+pigIt('!') -> '!'
 
 Example 5:
-pigIt('a b') -> aay bay
+pigIt('a b') -> 'aay bay'
 
 Example 6:
-pigIt('ab cd') -> baay dcay
+pigIt('ab cd') -> 'baay dcay'
 
 Example 7:
-pigIt('ab cd .') -> baay dcay .
+pigIt('ab cd .') -> 'baay dcay .'
 
 Example 8:
-pigIt('Hello world !') -> elloHay orldway !
+pigIt('Hello world !') -> 'elloHay orldway !'
 
 Example 9:
-pigIt('Pig latin is cool') -> igPay atinlay siay oolcay
+pigIt('Pig latin is cool') -> 'igPay atinlay siay oolcay'
