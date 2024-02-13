@@ -17,7 +17,7 @@ Pomodoro 1:
   As a user, I want to see correct result for one character on one word
 
 - ✅ DONE UAT1.1 When I pass 'a' I should see 'aay'
-- ⚠ TODO UAT1.2 When I pass 'ab' I should see 'baay'
+- ✅ DONE UAT1.2 When I pass 'ab' I should see 'baay'
 - ⚠ TODO UAT1.3 When I pass 'Pig' I should see 'igPay'
 - ⚠ TODO UAT1.4 When I pass '!' I should see '!'
 
