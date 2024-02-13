@@ -10,4 +10,7 @@ describe('User Story 1: Pig a one word max', () => {
   it("UAT1.3 When I pass 'Pig' I should see 'igPay'", () => {
     expect(pigIt('Pig')).toBe('igPay');
   });
+  it("UAT1.4 When I pass '!' I should see '!'", () => {
+    expect(pigIt('!')).toBe('!');
+  });
 });
