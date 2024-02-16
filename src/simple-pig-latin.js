@@ -20,27 +20,26 @@ function processWord(word) {
       processedWord += word[i];
     }
   }
-  if (!(processedWord >= 'a' && processedWord <= 'z') && !(processedWord >= 'A' && processedWord <= 'Z')) {
+
+  if (isNotAlphabet(processedWord)) {
     return processedWord;
   }
-  processedWord += word[0];
-  processedWord += 'ay';
+
+  processedWord = addEndOfWord(processedWord, word);
   console.log('processedWord: ', processedWord);
   return processedWord;
+}
 
-  // for (const char of word) {
-  //   console.log('character: ', char);
-  //   if (!(char >= 'a' && char <= 'z') && !(char >= 'A' && char <= 'Z')) {
-  //     return str;
-  //   } else {
-  //     if (iterator != 0) {
-  //       result += char;
-  //     }
-  //   }
-  //   iterator++;
-  // }
-  // console.log('partial result: ', result);
-  // result += str[0] + 'ay';
+function isNotAlphabet(processedWord) {
+  return !(processedWord >= 'a' && processedWord <= 'z') && !(processedWord >= 'A' && processedWord <= 'Z');
+}
+
+function addEndOfWord(processedWord, word) {
+  if (word.length != 1) {
+    processedWord += word[0];
+  }
+  processedWord += 'ay';
+  return processedWord;
 }
 
 module.exports = pigIt;
