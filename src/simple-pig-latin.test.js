@@ -25,4 +25,7 @@ describe('User Story 2: Pig two or more words', () => {
   it("UAT2.3 When I pass 'ab cd .' I should see 'baay dcay .'", () => {
     expect(pigIt('ab cd .')).toBe('baay dcay .');
   });
+  it("UAT2.4 When I pass 'Hello world !' I should see 'elloHay orldway !'", () => {
+    expect(pigIt('Hello world !')).toBe('elloHay orldway !');
+  });
 });
