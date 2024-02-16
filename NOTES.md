@@ -29,10 +29,6 @@ User Story 2: Pig two or more words
 As a user, I want to see correct result for two or more words
 
 - 🚧 IN PROGRESS UAT2.1 When I pass 'a b' I should see 'aay bay'
-- ⚠ TODO UAT2.2 When I pass 'ab cd' I should see 'baay dcay'
-- ⚠ TODO UAT2.3 When I pass 'ab cd .' I should see 'baay dcay .'
-- ⚠ TODO UAT2.4 When I pass 'Hello world !' I should see 'elloHay orldway !'
-- ⚠ TODO UAT2.5 When I pass 'Pig latin is cool' I should see 'igPay atinlay siay oolcay'
 
 Pomodoro 3:
 
@@ -40,4 +36,4 @@ Pomodoro 3:
 - ✅ DONE UAT2.2 When I pass 'ab cd' I should see 'baay dcay'
 - ✅ DONE UAT2.3 When I pass 'ab cd .' I should see 'baay dcay .'
 - ✅ DONE UAT2.4 When I pass 'Hello world !' I should see 'elloHay orldway !'
-- ⚠ TODO UAT2.5 When I pass 'Pig latin is cool' I should see 'igPay atinlay siay oolcay'
+- ✅ DONE UAT2.5 When I pass 'Pig latin is cool' I should see 'igPay atinlay siay oolcay'
