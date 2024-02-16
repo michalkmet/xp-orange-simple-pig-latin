@@ -14,3 +14,9 @@ describe('User Story 1: Pig a one word max', () => {
     expect(pigIt('!')).toBe('!');
   });
 });
+
+describe('User Story 2: Pig two or more words', () => {
+  it("UAT2.1 When I pass 'a b' I should see 'aay bay'", () => {
+    expect(pigIt('a b')).toBe('aay bay');
+  });
+});
