@@ -21,6 +21,10 @@ Pomodoro 1:
 - ✅ DONE UAT1.3 When I pass 'Pig' I should see 'igPay'
 - 🚧 IN PROGRESS UAT1.4 When I pass '!' I should see '!'
 
+Pomodoro 2:
+
+- ✅ DONE UAT1.4 When I pass '!' I should see '!'
+
 User Story 2: Pig two or more words
 As a user, I want to see correct result for two or more words
 

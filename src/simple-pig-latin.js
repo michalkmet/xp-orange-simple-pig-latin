@@ -1,10 +1,18 @@
 function pigIt(str) {
-  if (str === 'ab') {
-    return 'baay';
-  } else if (str === 'Pig') {
-    return 'igPay';
+  let result = '';
+  let iterator = 0;
+  for (const char of str) {
+    if (!(char >= 'a' && char <= 'z') && !(char >= 'A' && char <= 'Z')) {
+      return str;
+    } else {
+      if (iterator != 0) {
+        result += char;
+      }
+    }
+    iterator++;
   }
-  return 'aay';
+  result += str[0] + 'ay';
+  return result;
 }
 
 module.exports = pigIt;
